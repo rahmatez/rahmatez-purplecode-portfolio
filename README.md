@@ -1,26 +1,25 @@
-<h2 align="center">
- rahmatez - Portfolio Website<br/>
-  
-## Built With
+# 🌟 Rahmatez - Portfolio Website
 
-My personal portfolio which features some of my github projects as well as my resume and technical skills.<br/>
+A modern, responsive personal portfolio website built with React.js to showcase my projects, skills, and experience as a Laravel Developer.
 
-This project was built using these technologies.
+## ✨ Features
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- **Modern Design**: Clean and professional UI with purple theme
+- **Responsive Layout**: Works perfectly on all devices
+- **Interactive Components**: Smooth animations and transitions
+- **Contact Form**: Direct email integration with mailto protocol
+- **Project Showcase**: Display of featured GitHub projects
+- **Resume Section**: Downloadable PDF resume
+- **About Section**: Personal information and technical skills
 
-## Features
+## � Built With
 
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
+- **React.js** - Frontend framework
+- **React Bootstrap** - UI components
+- **CSS3** - Custom styling
+- **React Router** - Navigation
+- **React Icons** - Icon library
+- **Vercel** - Deployment platform
 
 ## Getting Started
 
