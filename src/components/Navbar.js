@@ -99,7 +99,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://medium.com/@rahmatezdev"
                 target="_blank"
                 rel="noreferrer">
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs

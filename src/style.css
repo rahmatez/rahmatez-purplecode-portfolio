@@ -158,9 +158,9 @@ button:focus {
 }
 
 .logo {
-  height: 1.5em !important;
+  height: 1.2em !important;
   width: auto !important;
-  max-width: 8.1em !important;
+  max-width: 7.8em !important;
   object-fit: contain !important;
 }
 
