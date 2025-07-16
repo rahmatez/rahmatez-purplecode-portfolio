@@ -637,10 +637,45 @@ button:focus {
   color: white !important;
 }
 
+/* Additional CSS to prevent text from PDF showing up */
+.react-pdf__Document .react-pdf__Page {
+  position: relative;
+  overflow: hidden;
+}
+
+.react-pdf__Document .react-pdf__Page > div:not(.react-pdf__Page__canvas) {
+  display: none !important;
+}
+
+.react-pdf__Document .react-pdf__Page__textContent,
+.react-pdf__Document .react-pdf__Page__textContent > span {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+/* Hide text content that might appear from PDF */
+.react-pdf__Document {
+  overflow: hidden;
+}
+
+.react-pdf__Page__textContent {
+  display: none !important;
+}
+
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+
+/* Only show the PDF canvas/image */
+.react-pdf__Page__canvas {
+  display: block !important;
 }
 
 .resume-left {
