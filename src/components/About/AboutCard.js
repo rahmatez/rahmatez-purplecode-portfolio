@@ -13,9 +13,9 @@ function AboutCard() {
             I currently work as a freelance software developer.
             <br />
             I have completed Integrated S1 (S.KOM) in Innformatics Engineering
-            at Telkom University Purwokerto.
+            at Telkom University Purwokerto, achieving a GPA of 3.63.
             <br />
-            <br />I am a computer science student with a passion for software
+            <br />A passion for software
             development. My enthusiasm lies in dreaming up innovative solutions,
             designing intuitive applications, and bringing ideas to life through
             code. I thrive on challenges and constantly strive to create
