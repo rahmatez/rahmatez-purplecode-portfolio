@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineTrophy,
   // AiOutlineMail,
 } from "react-icons/ai";
 
@@ -82,9 +83,9 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/certification"
                 onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <AiOutlineTrophy style={{ marginBottom: "2px" }} /> Certification
               </Nav.Link>
             </Nav.Item>
 
@@ -96,6 +97,15 @@ function NavBar() {
                 <AiOutlineMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}>
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
